@@ -38,7 +38,7 @@ function initlize() {
 	var count=0;
 	for(var i=0;i<4;i++) {
 		for(var j=0;j<4;j++) {
-			document.getElementById("row"+i).innerHTML+='<div class="col-sm" style="font-size:40px"><br><center><b>'+sequence[count++]+'</b></center><br></div>';
+			document.getElementById("row"+i).innerHTML+='<div class="col-sm" style="font-size:40px"><center><b>'+sequence[count++]+'</b></center></div>';
 		}
 	}
 	shuffle(playSequence);
